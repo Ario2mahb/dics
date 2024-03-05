@@ -6,7 +6,7 @@ import starlightLinksValidator from "starlight-links-validator";
 export default defineConfig({
   site: "https://docs.taiko.xyz",
   server: {
-    host: false,
+    host: true,
   },
   redirects: {
     "/": "/start-here/getting-started",
